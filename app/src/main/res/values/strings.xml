@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Текстовый калькулятор</string>
+    <string name="first_digit">Первое слагаемое - </string>
+    <string name="second_digit">Второе слагаемое - </string>
+    <string name="add">Сложить</string>
+    <string name="first">Введите первое число</string>
+    <string name="second">Введите второе число</string>
+</resources>
