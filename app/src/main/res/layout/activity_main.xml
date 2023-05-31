@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:textColor="@color/black"
         android:id="@+id/first_digit"
         android:layout_width="204dp"
         android:layout_height="25dp"
@@ -16,9 +17,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.447" />
+        app:layout_constraintVertical_bias="0.393" />
 
     <TextView
+        android:textColor="@color/black"
         android:id="@+id/second_digit"
         android:layout_width="204dp"
         android:layout_height="25dp"
@@ -43,24 +45,24 @@
         app:layout_constraintVertical_bias="0.738" />
 
     <EditText
+        android:textColorHint="@color/black"
         android:id="@+id/first_digit1"
         android:layout_width="204dp"
         android:layout_height="50dp"
         android:gravity="center"
         android:hint="@string/first"
-        android:inputType="numberDecimal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/first_digit"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.445" />
+        app:layout_constraintVertical_bias="0.392" />
 
     <EditText
+        android:textColorHint="@color/black"
         android:id="@+id/second_digit1"
         android:layout_width="204dp"
         android:layout_height="50dp"
         android:gravity="center"
         android:hint="@string/second"
-        android:inputType="numberDecimal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/second_digit"
         app:layout_constraintTop_toTopOf="parent"

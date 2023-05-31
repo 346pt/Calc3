@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         EditText digit2 = findViewById(R.id.second_digit1);
         Button btn = findViewById(R.id.btn1);
 
+        btn.setOnClickListener(view -> {
         Intent intent = new Intent(
                 MainActivity.this,
                 ResultActivity.class);
@@ -26,5 +27,6 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("second", digit2.getText().toString());
         startActivity(intent);
 
-    }
+    });
+}
 }

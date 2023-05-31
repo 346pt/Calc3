@@ -16,15 +16,15 @@ public class ResultActivity extends AppCompatActivity {
         try {
             String first = getIntent().getExtras().getString("first");
             String second = getIntent().getExtras().getString("second");
-            int second2 = Integer.parseInt(second);
+            int stY = Integer.parseInt(second);
             int result = (Integer.parseInt(first) + (Integer.parseInt(second)));
-            if (second2 > 0) {
+            if (stY > 0) {
                 answer.setText(first + " + " + second + " = " + result);
             } else {
                 answer.setText(first + " + " + "(" + second + ")" + " = " + result);
             }
-        }catch (NumberFormatException e){
-            answer.setText("Неправильный формат ");
+        } catch (NumberFormatException e) {
+            answer.setText("Неправильный формат");
         }
     }
 }
